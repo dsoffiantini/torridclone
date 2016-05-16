@@ -1,0 +1,68 @@
+/*header*/
+
+.above-nav {
+  text-align: center;
+  border-bottom: 2px solid lightgray;
+  font-size: 10px;
+  font-style: italic;
+  color: lightgray;
+  padding: 5px 0px 5px 0px;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  border-bottom: 2px solid lightgray;
+  padding: 10px 20px 10px 20px;
+}
+
+.hamburger-menu {
+  background: url("../img/menu.png") left no-repeat;
+  height: 100%;
+  width: 40%;
+  background-size: contain;
+}
+
+.logo img{
+  width: 60%;
+  height: 60%;
+}
+
+.shopping-bag {
+  background: url("../img/torrid_bag_small.png") right no-repeat;
+  width: 40%;
+  height: 40%;
+  background-size: contain;
+}
+
+/*footer*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background: #f1f1f1;
+  font-family: arial;
+  font-size: 11px;
+}
+
+.footer ul {
+  width: 80%;
+}
+
+.footer li {
+    text-align: left;
+    height: 15px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.footer a {
+  height: 30px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
